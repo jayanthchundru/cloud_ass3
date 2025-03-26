@@ -1,7 +1,7 @@
 # cloud_ass3
 # Docker Run Command to Verify Output
 To ensure `result.txt` is created and persists after the container exits, please run:
-
+# Intro to Cloud Computing Assignment 
 docker run --rm -v $(pwd)/output:/home/data/output cloud_ass3
 
 # How to Check the Output File
